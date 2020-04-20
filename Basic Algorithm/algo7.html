@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+function swapStringForArrayNegativeValues (array)
+{
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] < 0) {
+      array[i] = 'codebits';
+    }
+  }
+}
+
+function test ()
+{
+  var values = [1, 2, -1, -2, 3];
+  swapStringForArrayNegativeValues(values);
+  console.log('EXPECTED:', [1, 2, 'codebits', 'codebits', 3]);
+  console.log('ACTUAL:  ', values);
+}
+
+test();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstrating Array Every Method</title>
+</head>
+<body>
+    <h1>Demonstrating Array Every Method</h1>
+    <script>
+        let world=["China", "Iran", "Italy", "Norway", "Nigeria", "Ghana", "UK", "USA"];
+        let result = world.every(function(element,index,array){
+            return element === "Italy";
+        });
+        if (result) {
+            console.log("The world is safe!");
+        }else {
+            console.log("The world is NOT safe");
+        }
+    </script>
+</body>
+</html>

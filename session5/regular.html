@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regular Expressions</title>
+</head>
+<body>
+    <h1>Regular Expressions</h1>
+    <input type="text" id="txtTarget" placeholder="Enter target string here">
+    <input type="text" id="txtSearch" placeholder="Enter search expression here">
+    <input type="button" value="Find a Match" id="btn">
+<p id="display"></p>
+
+
+    <script>
+const btn = document.querySelector("#btn")
+const txtTarget = document.querySelector("#txtTarget")
+const txtSearch = document.querySelector("#txtSearch");
+const display = document.querySelector("#display")
+
+
+btn.addEventListener("click", findAMatch);
+
+function findAMatch() {
+
+    let targetString = txtTarget.value;
+    let searchString = txtSearch.value;
+
+    let pattern = new RegExp(searchString, "i");
+    
+    if (pattern.test(targetString)) {
+        display.innerHTML = "Yes, we have a match!";
+       
+    }  else {
+            display.innerHTML = "Oops! Item not found!";
+        }
+}
+4
+    </script>
+</body>
+</html>;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+<form action="" method="post">
+    <input type="text" id="IpAddress" placeholder="Enter IP address">
+    <input type="button" value="validateIpAddress" id="btn">
+
+
+</form>
+
+
+
+
+
+
+
+<script>
+ const btn = document.querySelector("#btn")
+ const IPAddress= document.querySelector("#IpAddress");
+        const display = document.querySelector("#display")
+
+
+btn.addEventListener('keypress', validateIpAddress);
+
+  function validateIpAddress()
+
+  if ( validateIpAddress =   /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/ {
+
+    document.write("valid IP address")
+
+  }   else {
+document.write("You have entered an invalid IP address!")
+
+}
+
+

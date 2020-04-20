@@ -1,0 +1,285 @@
+
+
+#g-hp-tabs {
+	margin: 0 auto;
+	max-width: 600px;
+	
+	position: relative;
+	width: 100%;
+}
+@media screen and (max-width: 600px) {
+	#g-hp-tabs {
+		padding-bottom: 20px;
+	}
+}
+
+.g-hp-tabs-inner {
+	height: 0;
+	margin: 0;
+	padding: 0 0 66.66%;
+	position: relative;
+	width: 100%;
+}
+
+.g-hp-tab {
+	background: #fff;
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.g-hp-tab.g-active {
+	display: block;
+}
+
+.g-hp-tab .g-media-wrap img, 
+.g-hp-tab .g-media-wrap video {
+	width: 100%;
+}
+.g-hp-tab .g-media-wrap a {
+	color: inherit;
+	display: block;
+	text-decoration: none;
+}
+
+.g-hp-tab .g-media-wrap[data-type="video"] {
+	background-color: black;
+	color: white;
+}
+
+.g-hp-tab .g-media-wrap[data-type="video"] p {
+	color: white;	
+	font-family: nyt-franklin,helvetica,sans-serif;
+	padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;	
+}
+
+@media screen and (max-width: 600px) {
+
+	.g-hp-tab .g-media-wrap[data-type="video"] p {
+		font-size: 16px;
+		padding: 10px;
+	}
+
+}
+
+.g-hp-tab .g-media-wrap > div {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: none;
+    max-height: none;
+}
+.g-hp-tab h4 {
+	font-family: nyt-franklin,helvetica,sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+	.g-hp-tab h4 {
+		display: none;
+	}
+}
+p.g-hp-cta {
+	font-family: nyt-franklin,helvetica,sans-serif;
+	font-size: 12px;
+	position: absolute;
+	text-align: center;
+	bottom :0px;
+	left: 0;
+	right: 0;
+
+	text-decoration: underline;
+
+}
+
+a p.g-hp-cta:hover {
+	text-decoration: none;
+}
+
+
+p.g-hp-cta:after {
+	content: '>';
+	display: inline-block;
+	background: black;
+	color: white;
+	border-radius: 100em;
+	font-size: 0.75em;
+	width: 0.75em;
+	font-weight: bold;
+	height: 0.75em;
+	margin-left: 0.5em;
+	padding: 0.2em 0.35em 0.5em;
+	line-height: 1.2;
+
+}
+
+@media screen and (min-width: 450px) {
+	p.g-hp-cta {
+		font-size: 14px;
+
+	}
+
+	p.g-hp-cta:after {
+		padding: 0.25em 0.35em 0.55em 0.45em;
+	}
+}
+
+.g-hp-tab-ui {
+	padding-top: 30px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.g-hp-tab-btn {
+	background-color: #f2f2f2;
+	border: 1px solid #bcbcbc;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-right: -1px;
+}
+.g-hp-tab-btn.g-active {
+	background-color: #fff;
+}
+.g-hp-tab-btn:first-of-type  {
+	border-radius: 3px 0 0 3px;
+}
+.g-hp-tab-btn:last-of-type  {
+	border-radius: 0  3px 3px 0;
+}
+.g-hp-tab-ui button {
+	background: transparent;
+	border: 0;
+	box-sizing: border-box;
+	color:  #444;
+	cursor: pointer;
+	font-family: nyt-franklin,helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	outline: 0;
+    padding: 9px 20px 7px;
+    text-shadow: 0 0 0 #fff;
+}
+
+@media screen and (max-width: 340px) {
+	.g-hp-tab-ui button {
+		font-size: 12px;
+	    padding: 6px 8px 5px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.g-hp-tab-ui button {
+		font-size: 13px;
+	    padding: 8px 10px 6px;
+	}
+}
+
+@media (min-width: 1027px) and (max-width: 1134px) {
+	.g-hp-tab-ui button {
+		font-size: 12px;
+	}
+}
+
+.g-hp-tab-ui .g-hp-tab-btn.g-active button {
+	color: #000;
+	text-decoration: none;
+}
+
+#g-vhs-video {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+	width: 100%;
+}
+#g-vhs-video #g-vhs-video-wrap {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#g-vhs-video #g-vhs-video-wrap button[class*='overlay']{
+	left: 0;
+	top: 0;
+}
+
+
+#hp-tabs-coronavirus #interactive-header {
+	display: none;
+}
+
+.e-select-wrapper {
+    display: inline-block;
+    font-family: "nyt-franklin", arial, helvetica, sans-serif;
+    left: 50%;
+    position: relative;
+    margin: 0 auto;
+    transform: translate(-50%, -30px);
+  }
+
+  .e-select-wrapper:before {
+    color: #000;
+    content: 'See all cases in';
+    display: inline-block;
+    font-family: $sans;
+    font-weight: 500;
+    padding-left: 0;
+    font-size: 15px;
+    line-height: 1.4;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+  }
+  @media screen and (max-width: 340px) {
+    .e-select-wrapper:before {
+      font-size: 12px;
+    }
+  }
+  .e-select-wrapper:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #999;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    pointer-events: none;
+  }
+
+  .e-select-wrapper select {
+    color: #000;
+    font-family: "nyt-franklin", arial, helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.4;
+    vertical-align: baseline;
+    background: #fff;
+    color: #333;
+    border: 0;
+    border-bottom: solid 2px #ddd;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    padding: 4px 10px 2px 5px;
+    min-width: 130px;
+    cursor: pointer;
+  }
+  .e-select-wrapper select:focus {
+    outline: none;
+  }
+
+  select::-ms-expand {
+    display: none;
+  }
+  /* .nytapp-ios .e-select-wrapper,
+  .nytapp-android .e-select-wrapper {
+    display: none;
+  } */
+

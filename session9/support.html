@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support for Web Storage</title>
+    <h1> Check Support for Web Storage</h1>
+    <button id="btn">Check Browser Support</button>
+    <input type="text" id="txtKey">
+    <input type="text" id="txtValue">
+    <button id="btn2">Add entry</button>
+
+</head>
+<body>
+    
+    <script>
+        const btn = document.querySelector("#btn");
+        const txtKey = document.querySelector("#txtKey");
+        const txtValue = document.querySelector("#txtValue")
+        const btn1= document.querySelector("#btn1");
+        btn.addEventListener("click", checkSupport);
+        btn2.addEventListener("click", add);
+        function add() {
+            let key = txtKey.value;
+            let value = txtValue.value;
+            sessionStorage.setItem(key, value);
+            console.log("New item added successfully");
+        }
+        function checkSupport() {
+            let status = "Your browser does not support HTML5 Web Storage!";
+            if (window.localStorage || window['localStorage']) {
+                status = "Yes, your browser supports HTML5 web Storage!";
+            }
+            console.log(status);
+        }
+    </script>
+
+</body>
+</html>

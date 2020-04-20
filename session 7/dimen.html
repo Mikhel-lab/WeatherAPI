@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multidimensional Array</title>
+</head>
+<body>
+    
+    <script>
+
+let stock = [["Mouse", "5", "2500"],
+            ["Laptop", "10", "65000"],
+            ["LG Tv", "5", "75000"],
+            ["Century Fan", "15", "18000"]];
+//console.log()
+
+// //  let stock = 0;
+//  for (var stock = 0; stock <= 5; stock++) {
+//     document.write(stock + "br");
+//     stock = stock + 1
+
+//  }
+
+
+
+
+
+document.write("<table border = '1'>");
+document.write("<tr>")
+document.write("<th>S/N</th><th>item</th><th>Quantify<th>Price</th>");
+document.write("<tr>");
+
+for (var i = 0; i < stock.length; i++) {
+    document.write("<tr>");
+    document.write(`<td> ${i + 1} </td>`)
+    for (var k = 0; k < stock[i].length; k++) {
+        document.write("<td>" + stock[i][k] + "</td>");
+
+    }
+    document.write("</tr>")
+}
+document.write("</table>");
+    </script>
+</body>
+</html>

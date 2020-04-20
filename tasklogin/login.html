@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <h1>Login Your Details</h1>
+    <form>
+        <input type="text" id="userName" placeholder="username">
+        <input type="password" id="passwordTxt" placeholder="password">
+        <button id="btn">Submit</button>
+    </form>
+</head>
+<body>
+    
+<script>
+
+
+        const userName = document.querySelector("#userName");
+        const passwordTxt = document.querySelector("#passwordTxt")
+        const btn= document.querySelector("#btn");
+
+        btn.addEventListener("click", submit);
+       
+
+
+
+function submit() {
+
+     localStorage.setItem("admin", userName.value ) 
+
+
+let storageuserName = localStorage.getItem("admin", userName.value)
+let storagepassword = localStorage.getItem("secret", passwordTxt.value)
+
+
+let username = document.getElementById('userName')
+let password = document.getElementById('passwordTxt')
+if(userName.value == storageuserName && passwordTxt.value == storagepassword) {
+        document.write('You are loged in.');
+    }else {
+        document.write('Pleae input valid username and password');
+    }
+   
+
+
+</script>
+
+
+
+</body>
+</html>

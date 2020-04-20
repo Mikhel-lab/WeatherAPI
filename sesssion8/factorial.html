@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+<script>
+    function findFactorial(num) {
+
+        if (isNaN(num)){
+            return false;
+        }
+
+        if (num === 0){
+            return 1
+        }
+        if (num < 0){
+            return false;
+        } 
+        
+        let result = 1;
+        for (var i = num; i>= 1; i--){
+        result = result * i;
+    
+    }
+    return result;
+
+    }
+    
+    
+
+ console.log(findFactorial(0));
+ console.log(findFactorial(3));
+ console.log(findFactorial(5));
+ console.log(findFactorial("a"));
+ console.log(findFactorial(-5));
+ 
+ 
+</script>
+</body>
+</html>

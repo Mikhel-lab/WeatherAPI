@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathcount</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+
+var sum = 0;
+function mathDynamic(num) {
+    var sum3 = 0;
+    var sum7 = 0;
+    var totalSum = 0;
+ for (let i = 0; i <= num; i++){
+
+    if (i == num/3) {
+        return -1;
+    }
+
+    if ( i % 7 == 0)
+    sum7 += i;
+
+    if (i % 3 === 0)
+     sum3 += i
+
+    totalSum += i;
+}
+    var finalAns = totalSum + sum7 - sum3;
+    return finalAns
+}
+document.write(mathDynamic(8))
+
+    </script>
+</body>
+</html>

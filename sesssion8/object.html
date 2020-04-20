@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Numbers and object</title>
+</head>
+<body>
+  <h1>Add 2 numbers</h1>
+  
+  
+  <button id="btn">Add 2 numbers</button>
+  <script>
+
+function track (artist,album,released, title,duration) {
+  this.artist = artist || "Unknowm";
+  this.album = album || "Unknowm";
+  this.released = released || "Unknowm";
+  this.title = title || "Unknowm";
+  this.duration = duration;
+  this.displayDetails = function () {
+   
+      return this.duration;
+  }
+  this.play = function () {
+      console.log(this.title + " has started playing")
+  }
+  this.stop = function () {
+      console.log(this.title + " has stopped playing")
+  }
+}
+let trackList1 = new track("Kenny","greastesHits",1982,"islandTrack", "5 mins");
+let trackList2 = new track("Kenny","greastesHits",1982,"You and I", "5 mins");
+let trackList3 = new track("Kenny","greastesHits",1982,"The Gambler", "5 mins");
+let trackList4 = new track("Kenny","greastesHits",1982,"Through the Years", "5 mins");
+let trackList5 = new track("Kenny","greastesHits",1982,"She believed in me", "5 mins");
+let trackList6 = new track("Kenny","greastesHits",1982,"You decorated my life", "5 mins");
+console.log(trackList1.album)
+console.log(trackList1.displayDetails());
+trackList5.play();
+trackList5.stop();
+
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+let track = {
+    //     artists: 'kenny rogers, Dolly Parton',
+    //     name: "greatest hits",
+    //     released: 1982,
+    //     title:"Island in the stream",
+    //     displayDetails: function () {
+    //         return this.artists;
+    //     }
+    // };
+    // console.log(track.displayDetails())
+    // console.log(track.artists)
+    // console.log(track.name)
+    // console.log(track.released)
+    // console.log(track.title)
+    // deceraring objects using contsrucor
+
+
+
+
+    // console.log(islandTracknew.displayDetails());
+//       function sum2num () {
+//           let num1 = 5;
+//           let num2 = 6;
+//           let sum = num1 + num2;
+//           return sum;
+//       }
+// console.log(sum2num())
+// let num = 10;
+// function add5(num){
+//   num = num + 5;
+// }
+// add5(num)
+// console.log(num)
+let names  = ["mike", "yahgozie","Bankole"];
+// function change_name (nameArray){
+//            nameArray[0] = "Debbie";
+// }
+// change_name(names)
+// function displayName (nameArray) {
+//     document.write("<ul>")
+//     for(var i =0 ; i < nameArray.length; i++){
+//         document.write("<li>"  +  nameArray[i] + "</li>")
+//     }
+//     document.write("</ul>")
+// }
+// displayName(names)
+ 
+// function findFactotrial (num) {
+//     if(isNaN(num)){
+//         return false;
+//     } if(num === 0){
+//         return 1;
+//     }if(num < 0){
+//         return false;
+//     }
+//     let result = 1
+//     for(var i = num; i >= 1; i--){
+//      result = result * i;
+//     }
+//     return result;
+    
+// }
+// console.log(findFactotrial(0))
+// console.log(findFactotrial(3))
+// console.log(findFactotrial(4))
+// console.log(findFactotrial('a'))
+// console.log(findFactotrial(-5))
