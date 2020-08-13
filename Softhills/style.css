@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 250px;
+}
+
+p{
+    font-size:15px;
+    color: white;
+}
+
+.glyphicon-pencil{
+    font-size:35px;
+    color: white;
+     
+}

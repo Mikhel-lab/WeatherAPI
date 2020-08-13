@@ -1,0 +1,13 @@
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\bin\Debug\netcoreapp3.1\QuestionThree.exe
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\bin\Debug\netcoreapp3.1\QuestionThree.deps.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\bin\Debug\netcoreapp3.1\QuestionThree.runtimeconfig.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\bin\Debug\netcoreapp3.1\QuestionThree.runtimeconfig.dev.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\bin\Debug\netcoreapp3.1\QuestionThree.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\bin\Debug\netcoreapp3.1\QuestionThree.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.csproj.CoreCompileInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.AssemblyInfoInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.AssemblyInfo.cs
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.genruntimeconfig.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionThree\QuestionThree\obj\Debug\netcoreapp3.1\QuestionThree.csprojAssemblyReference.cache

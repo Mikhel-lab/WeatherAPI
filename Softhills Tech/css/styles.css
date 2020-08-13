@@ -1,0 +1,26 @@
+.jumbotron{
+    background-image: url('../image/img.jpg');
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    width: 100%;
+}
+
+body{
+    background-color: white;
+    background-attachment: fixed;
+    background-image: url('../image/img.jpg');
+    
+    
+}
+section{
+
+    height: 400px;
+    background-size:cover ;
+    background-color: grey;
+}
+
+h1{
+    color: black;
+}

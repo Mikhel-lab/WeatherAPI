@@ -1,0 +1,13 @@
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\bin\Debug\netcoreapp3.1\QuestionOne.exe
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\bin\Debug\netcoreapp3.1\QuestionOne.deps.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\bin\Debug\netcoreapp3.1\QuestionOne.runtimeconfig.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\bin\Debug\netcoreapp3.1\QuestionOne.runtimeconfig.dev.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\bin\Debug\netcoreapp3.1\QuestionOne.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\bin\Debug\netcoreapp3.1\QuestionOne.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.csprojAssemblyReference.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.csproj.CoreCompileInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.AssemblyInfoInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.AssemblyInfo.cs
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionOne\QuestionOne\obj\Debug\netcoreapp3.1\QuestionOne.genruntimeconfig.cache

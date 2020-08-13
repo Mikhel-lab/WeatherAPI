@@ -1,0 +1,13 @@
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.exe
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.deps.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.runtimeconfig.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.runtimeconfig.dev.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\bin\Debug\netcoreapp3.1\QuestionNine.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.csprojAssemblyReference.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.csproj.CoreCompileInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.AssemblyInfoInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.AssemblyInfo.cs
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionNine\QuestionNine\obj\Debug\netcoreapp3.1\QuestionNine.genruntimeconfig.cache

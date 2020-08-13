@@ -1,0 +1,13 @@
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\bin\Debug\netcoreapp3.1\QuestionEleven.exe
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\bin\Debug\netcoreapp3.1\QuestionEleven.deps.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\bin\Debug\netcoreapp3.1\QuestionEleven.runtimeconfig.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\bin\Debug\netcoreapp3.1\QuestionEleven.runtimeconfig.dev.json
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\bin\Debug\netcoreapp3.1\QuestionEleven.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\bin\Debug\netcoreapp3.1\QuestionEleven.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.csproj.CoreCompileInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.AssemblyInfoInputs.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.AssemblyInfo.cs
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.dll
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.pdb
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.genruntimeconfig.cache
+C:\Users\emma\Documents\Visual Studio 2019\CodebitsCohortAcademy\LabTask14\QuestionEleven\QuestionEleven\obj\Debug\netcoreapp3.1\QuestionEleven.csprojAssemblyReference.cache
